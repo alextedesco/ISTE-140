@@ -1,0 +1,68 @@
+body { 
+    background-image: linear-gradient(
+        to bottom,
+        hsl(96, 100%, 45.1%) 0%,
+        hsl(100.65, 79.63%, 49.97%) 8.1%,
+        hsl(106.62, 74.97%, 54.21%) 15.5%,
+        hsl(114.72, 68.23%, 57.85%) 22.5%,
+        hsl(125.87, 61.66%, 58.41%) 29%,
+        hsl(137.88, 56.71%, 56%) 35.3%,
+        hsl(150.37, 51.65%, 53.21%) 41.2%,
+        hsl(163.41, 46.73%, 50.08%) 47.1%,
+        hsl(176.99, 48.14%, 46.67%) 52.9%,
+        hsl(189.31, 54.46%, 47.01%) 58.8%,
+        hsl(197.72, 61.73%, 48%) 64.7%,
+        hsl(203.53, 68.85%, 48.51%) 71%,
+        hsl(207.44, 76.01%, 48.51%) 77.5%,
+        hsl(209.77, 83.42%, 47.97%) 84.5%,
+        hsl(210.63, 91.31%, 46.85%) 91.9%,
+        hsl(210, 100%, 45.1%) 100%
+      )
+    }
+
+p {
+    font-size: 100px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+
+
+img {
+    border-radius: 69% 31% 67% 33% / 30% 48% 52% 70% ;
+    height: 500px;
+    width: 500px;
+    box-shadow:
+    2.2px 2.3px 3.9px rgba(0, 0, 0, 0.018),
+    5.1px 5.4px 9.2px rgba(0, 0, 0, 0.026),
+    9.2px 9.8px 16.4px rgba(0, 0, 0, 0.032),
+    15.3px 16.2px 27.3px rgba(0, 0, 0, 0.038),
+    25.1px 26.7px 45px rgba(0,     0, 0, 0.044),
+    43.9px 46.7px 78.6px rgba(0, 0, 0, 0.052),
+    95px 101px 170px rgba(0, 0, 0, 0.07);
+    animation: waitAnimate_1511649672 11s linear infinite;
+    transform-origin: 50% 50%;
+
+}
+
+@keyframes waitAnimate_1511649672 {
+    0% {
+      transform: perspective(100px)rotate(0deg)
+    }
+    22.727% {
+      transform: perspective(100px)rotateX(180deg)rotateY(0);
+    }
+    45.455% {
+      transform: perspective(100px)rotateX(180deg)rotateY(180deg);
+    }
+    68.182% {
+      transform: perspective(100px)rotateX(0)rotateY(180deg);
+    }
+    90.909% {
+      transform: perspective(100px)rotateX(0)rotateY(0);
+    }
+    100% {
+      transform: perspective(100px)rotateX(0)rotateY(0);
+    }

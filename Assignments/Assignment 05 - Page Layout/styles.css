@@ -1,0 +1,87 @@
+body { 
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(10,10,28,1) 0%, rgba(5,98,179,1) 0%, rgba(3,155,217,1) 80%, rgba(0,212,255,1) 100%, rgba(4,129,200,1) 100%);font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4ad513;
+    }
+
+    .portrait {
+        animation: pulse 5.0s infinite ease-out;
+    }
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.0);
+  }
+  70% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+    
+
+h1  {
+    color: #4ad513;
+    text-align: left;
+    border-bottom: 1px solid #4ad513;
+}
+
+h2 {
+    color: rgb(220, 128, 186);
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+}
+
+p {
+    margin-top: 0px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 12px;
+}
+
+ol, ul {
+    padding-left: 12px;
+}
+
+figure {
+    float: right;
+    margin-left: 20px;
+    color: #4ad513;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4ad513;
+}
+
+figcaption {
+    font-size: 25px;
+}
+
+div {
+    font-size: 25px;
+}
+
+footer {
+    font-size: 15px;
+    color: rgb(33, 28, 28);
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}

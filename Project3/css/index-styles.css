@@ -1,0 +1,136 @@
+body {
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(5, 98, 179, 1) 0%, rgba(10, 10, 28, 1) 0%, rgba(0, 162, 187, 1) 0%, rgba(0, 162, 187, 1) 0%, rgba(4, 129, 200, 1) 1%, rgba(3, 221, 166, 1) 52%, rgba(3, 221, 170, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-size:cover;
+}
+
+nav ul {
+    list-style: none;
+    padding-bottom:30px;
+    margin-left:5%;
+}
+
+nav li {
+    text-align: center;
+    background-color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: "Impact",Sans-serif;
+    font-size: 14pt;
+    margin-right:1em;
+    margin-top:10px;
+    padding:25px;
+    text-shadow: 3px 3px 5px grey;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 50%;
+}
+
+nav li a {
+    color:black;
+    text-decoration: none;
+    padding: 1em;
+}
+
+
+nav li a:hover {
+    border-radius: 75%;
+    background-color:rgba(0, 243, 97, 0.3);
+    color:white;
+}
+
+.container a {
+    text-decoration: underline;
+    color: black;
+}
+
+.current {
+    border-radius: 75%;
+    background-color:rgba(0, 243, 97, 0.3);
+}
+
+header {
+    padding-top:2%;
+    padding-bottom:2%;
+}  
+
+header a {
+    text-decoration:none;
+}
+
+
+header img {
+    width:6%;
+    position:relative;
+    top: 15px;
+    padding:3px
+}
+
+.logo {
+    background-color:white;
+    padding-left:20px;
+    width:90%;
+    margin-left:5%;
+    box-shadow: 0px 0px 10px white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.logo h2 {
+    padding-bottom:20px;
+    color:rgba(0,0,0,0.6);
+    margin-top:-20px;
+    font-family:"Book Antiqua", serif;
+}
+
+.logo h1 {
+    font-family:"Impact",Sans-serif;
+    font-size:38pt;
+    text-shadow: 0px 0px 10px grey;
+}
+
+
+.logo img,.logo h1 {
+    display:inline-block;
+}
+
+.banner {
+    background-color:rgba(250, 235, 215, 0.7);
+    margin-bottom:30px;
+}
+
+.box {
+    width:80%;
+    margin-left:10%;
+    max-width:1200px;
+    min-width:480px;
+    margin-bottom:30px;
+    background-color:rgba(220, 220, 220, 0.3);
+}
+
+footer {
+    text-align:center;
+    font-size:14pt;
+    padding-bottom:1%;
+}
+
+.banner { 
+    background-color:rgba(250, 235, 215, 0.7);
+    margin-bottom:30px;
+}
+
+.banner a {
+    color:black;
+}
+
+.tua {
+    width:400px;
+    height: auto;
+}
+
+img {
+    border-radius: 20px;
+}
+
+p {
+    font-size: 18px;
+}

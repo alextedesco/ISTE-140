@@ -1,0 +1,124 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(5, 98, 179, 1) 0%, rgba(10, 10, 28, 1) 0%, rgba(0, 162, 187, 1) 0%, rgba(0, 162, 187, 1) 0%, rgba(4, 129, 200, 1) 1%, rgba(3, 221, 166, 1) 52%, rgba(3, 221, 170, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    grid-area: 1 / 1 / 2 / 6;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    position: relative;
+    bottom: 150px;
+}
+
+header>h1 {
+    border-bottom: 5px solid black;
+}
+
+article {
+    grid-area: 2 / 1 / 5 / 4;
+    font-size: 20px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 300px;
+}
+
+figure {
+    grid-area: 3 / 2 / 4 / 3;
+    text-align: center;
+    position: relative;
+    bottom: 475px;
+}
+
+figure > img {
+    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+figure>figcaption {
+    position: relative;
+    bottom: -25px;
+    font-size: 18px;
+}
+
+aside {
+    grid-area: 2 / 4 / 4 / 6;
+    margin-left: -35px;
+    font-size: 20px;
+    position: relative;
+    bottom: 320px;
+}
+
+.section1 {
+    grid-area: 4 / 4 / 6 / 6;
+    font-size: 20px;
+    position: relative;
+    bottom: 800px;
+    right: 30px;
+}
+
+.section2 {
+    grid-area: 6 / 4 / 8 / 6;
+    font-size: 20px;
+    position: relative;
+    bottom: 1050px;
+    right: 30px;
+}
+
+.section3 {
+    grid-area: 5 / 1 / 8 / 4;
+    font-size: 20px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 900px;
+    right: 30px;
+}
+
+.cte {
+    position: relative;
+    bottom: -25px;
+}
+
+.cte > img {
+    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.cte > figcaption {
+    font-size: 18px;
+}
+
+footer {
+    grid-area: 8 / 1 / 9 / 6;
+    margin-bottom: auto;
+    position: relative;
+    bottom: 1450px;
+}
+
+footer > h1 {
+    border-bottom: 5px solid black;
+    text-align: center;
+}
+
+* {border: 3px solid black;}

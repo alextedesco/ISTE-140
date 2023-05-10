@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Demo</title>
+</head>
+
+<body>
+    <h1>DOM Demo</h1>
+
+    <script>
+        document.write("<div>This was inserted into the webpage by JavaScript</div>");
+        document.write(document.URL);
+    </script>
+
+    <br>
+
+    <button id="clicky">Click me! ...dammit</button>
+
+    <br><br>
+
+    <button id="hider">Hide the paragraph</button>
+    <button id="unhider">Unhide the paragraph</button>
+    <button id="toggler">Toggle</button>
+
+
+    <p id="hidee">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias dolor laborum dicta? Consequatur sunt
+        aspernatur nemo porro culpa deleniti quidem unde soluta, beatae, magnam impedit laborum sed debitis quo quas?
+    </p>
+
+    <script>
+        var clickElement = document.getElementById("clicky");
+
+        clickElement.addEventListener("click", function () {
+            alert("Hey! Someone clicked me!")
+        });
+
+        var hiderButton = document.getElementById("hider");
+        var unhiderButton = document.getElementById("unhider");
+        var toggleButton = document.getElementById("toggler");
+
+        var hideeElement = document.getElementById("hidee");
+
+        hiderButton.addEventListener("click", function () {
+            hideeElement.style.display = "none";
+        })
+        unhiderButton.addEventListener("click", function () {
+            hideeElement.style.display = "block";
+        })
+        toggleButton.addEventListener("click", function () {
+            if (hideeElement.style.display == "none") {
+                hideeElement.style.display = "block";
+            } else {
+                hideeElement.style.display = "none";
+            }
+        })
+    </script>
+</body>
+
+</html>
